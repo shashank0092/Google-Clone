@@ -1,0 +1,15 @@
+#boi .box-1{
+    /* border: 2px solid red; */
+    width:70vw;
+    justify-content: flex-start !important;
+}
+
+#boi input{
+    background:none
+    
+}
+
+#boi .input_bar{
+    
+    width:60vw;
+}
