@@ -9,6 +9,7 @@ const ResultPage=()=>{
     return(
         <>
         <div className="min-w-fit" >
+            
              <ResultNavbar/>
             <Resultcard/>
         </div>

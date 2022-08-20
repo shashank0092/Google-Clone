@@ -26,7 +26,7 @@ const ResultNavbar=()=>{
                   
                 </div>
 
-                <div id="boi" className='my-4  '  >
+                <div id="boi" className='my-4 mx-16 '  >
                     <Inputbar   />
                 </div>
 

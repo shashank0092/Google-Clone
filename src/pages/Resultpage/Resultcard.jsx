@@ -8,8 +8,8 @@ const Resultcard=()=>{
     const data=useSearchAPI(term);
     
 
-    console.log("This is data",data);
-    // console.log(data)
+
+    
     return(
         <>
         <div className="bg-stone-50" >

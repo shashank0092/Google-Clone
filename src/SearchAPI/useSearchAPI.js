@@ -16,13 +16,13 @@ const useSearchAPI=(term)=>{
                 headers: {
                     'X-User-Agent': 'desktop',
 		            'X-Proxy-Location': 'EU',
-		            'X-RapidAPI-Key': 'be88ea1cf8msh70d26e62270510dp14610bjsn2014ca5670da',
+		            'X-RapidAPI-Key': `${String(process.env.REACT_APP_SEARCH_API_KEY)}`,
 		            'X-RapidAPI-Host': 'google-search3.p.rapidapi.com'
                 }
 
             });
             const resultData=await search.json();
-            // console.log('The Result IS',resultData);
+            
             
             setData(resultData);
             
