@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 import AppsIcon from '@mui/icons-material/Apps';
 import Avatar from '@mui/material/Avatar';
+import Search from '../../components/search/Search'
 
 import './Home.css'
 const Home = () => {
@@ -21,13 +22,16 @@ const Home = () => {
                 <Link to="/images">Images</Link>
                 <AppsIcon/>
                 <Avatar/>
-                {/* icon */}
-                {/* avtar */}
+              
             </div>
         </div>
 
-        <div className="body">
+        <div className="homebody">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="" />
+        </div>
 
+        <div className="homeInputContainer" >
+            <Search />
         </div>
 
     </div>

@@ -2,6 +2,7 @@
     display: flex;
     height: 100vh;
     flex-direction: column;
+  
 }
 
 .homeheader{
@@ -10,6 +11,7 @@
     justify-content: space-between;
     align-items: center;
     padding:20px 30px;
+  
 }
 
 .homeheader a{
@@ -27,9 +29,24 @@
     display: flex;
     align-items:center;
     min-width:13vh;
-    justify-content:space-between
+    justify-content:space-between;
+    
 }
 
 .headerRight>.MuiSvgIcon-root{
     margin-right:20px;
+}
+
+.homebody{
+    display: flex;
+    flex: 1;
+    flex-direction:column;
+    margin-top: 5%;
+    /* border: 2px solid red; */
+}
+
+.homebody>img{
+    object-fit: contain;
+    height: 100px;
+    
 }
